@@ -1,0 +1,52 @@
+#main-container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    #header{
+        width: 100%;
+    }
+
+    #body{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .body-item{
+            font-size: 20px;
+        }
+
+        .microsoft-link{
+            cursor: pointer;
+        }
+
+        .profile-image{
+            width: 30%;
+            margin-bottom: 20px;
+        }
+
+        .icons{
+            padding-top: 20px;
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            align-items: center;
+            justify-content: space-between;
+
+            .icon{
+                text-decoration: none;
+                color: black;
+                cursor: pointer;
+
+                .icon-size{
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+}
